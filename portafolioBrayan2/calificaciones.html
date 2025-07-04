@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MI PORTAFOLIO MTRA.</title>
+
+<style>
+	body{
+		margin:0 ;
+		font-family:'Segoe UI', sans-serif ;
+		display:flex;
+
+	}
+ nav {
+      width: 220px;
+      min-height: 100vh;
+      background: linear-gradient(to bottom, #DAF7A6, #0f6b3e);
+      color: white;
+      padding-top: 30px;
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+nav ul li {
+      position: relative;
+    }
+     nav ul li a {
+      display: block;
+      padding: 15px 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    nav ul li a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+/* Submenú */
+    nav ul li ul {
+      display: none;
+      background-color: #174f36;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li ul li a {
+      padding-left: 30px;
+      font-weight: normal;
+    }
+    /* CONTENIDO */
+    .contenido {
+      margin-left: 220px;
+      width: calc(100% - 220px);
+    }
+
+    header {
+      background: linear-gradient(to right, #6b0f1a, #0f6b3e);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+ header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+ header .titulo {
+      text-align: left;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    table{
+      width:80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family:  arial , sans-serif;
+      border: 2px solid #000;
+    }
+
+
+th,td{
+  border: 2px solid #000;
+  padding:8px;
+  text-align: center;
+}
+
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+	
+		<nav>
+      <ul>
+			<li> <a href="index.html">Inicio</a></li>
+			<li> <a href="#">Sobre mí</a></li>
+			<li> <a href="#">Habilidades</a></li>
+
+			<li>
+				<a href="#">Proyectos</a>
+				<ul>
+					<li><a href="calificaciones .html">Calificaciones</a></li>
+					<li><a href="directorio.html">Directorio</a></li>
+					<li><a href="#">Reforestación</a></li>
+					<li><a href="#">Cuestionario</a></li>
+
+				</ul>
+
+			</li>
+			<li><a href="#">Contacto</a></li>
+
+		</nav>
+<div class="contenido">
+  <!-- HEADER CON IMAGEN-->
+  <header>
+    <img src="img/brayan.jpg" alt="Foto de perfil">
+      <div class="titulo">
+        <h1>Mi Página Web Completa</h1>
+        <p>Con menú lateral y diseño profesional</p>
+      </div>
+
+
+  </header>
+   <!-- MAIN -->
+    
+      <h1>lista de calificaciones</h1>
+     <table>
+      <caption>GRUPO 603</caption>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nombre</th>
+          <th>Materia</th>
+          <ht>Calificacion</ht>
+          <th>observaciones</th>
+        </tr>
+      </thead>
+      <body>
+        <td>1.</td>
+        <td>Brayan Lopez Mendoza</td>
+        <td>fisica</td>
+        <td>5.7
+          <td>reprobe la materia y me fui extrahordinario</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Brayan Lopez Mendoza</td>
+          <td>Ciencias sociales</td>
+          <td>8.6</td>
+          <td>ahy pase la materia</td>
+        </tr>
+
+         <tr>
+          <td>.3</td>
+          <td>Brayan Lopez Mendoza</td>
+          <td>orientacion</td>
+          <td>7.5</td>
+          <td>ahy me fui a final</td>
+        </tr>
+
+         <tr>
+          <td>.4</td>
+          <td>Brayan Lopez Mendoza</td>
+          <td>historia universal</td>
+          <td>8.5</td>
+          <td>Execente la materia</td>
+        </tr>
+
+
+         <tr>
+          <td>.5</td>
+          <td>Brayan Lopez Mendoza</td>
+          <td>calculo integral</td>
+          <td>5.6</td>
+          <td>me fui extrahorinadio</td>
+        </tr>
+
+        <tr>
+          <td>.6</td>
+          <td>Brayan Lopez Mendoza</td>
+          <td>filosofia</td>
+          <td>8.9</td>
+          <td>Exente la materia</td> </tr>
+
+        <tr>
+        <td>victor hernandes quintana</td>
+        <td>victor</td>
+        <td>Estudiante</td>
+        <td>victor.603@gmail.com</td>
+        <td>712 125 4566</td>
+        <td><img src="img/victor.jpg" alt="victorhernandez"  width="60"></td>
+
+        </tr>
+
+        </tr>
+
+
+        <tr>
+          <td>.7</td>
+          <td>Brayan Lopez Mendoza</td>
+          <td>actividad Artistico cultural</td>
+          <td>7.5</td>
+          <td>me fui a final</td>
+        </tr>
+
+        <tr>
+          <td>.8</td>
+          <td>Brayan Lopez Mendoza</td>
+          <td>9.0conomia</td>
+          <td></td>
+          <td>exente la materia</td>
+        </tr>
+
+        <tr>
+          <td>.9</td>
+          <td>Brayan Lopez Mendoza</td>
+          <td>submodulo 1.paginas web</td>
+          <td></td>
+          <td>me fui extrahordinario</td>
+        </tr>
+
+        <tr>
+          <td>.10</td>
+          <td>Brayan Lopez Mendoza</td>
+          <td>submodulo 2. diseño digital</td>
+          <td>5.0</td>
+          <td>me fui extrahordinario</td>
+        </tr>
+
+
+
+
+        </tbody
+
+
+
+      </table>
+      
+    
+    <!-- FOOTER -->
+    <footer>
+      <h3>Elaborado por: Tu Nombre Aquí</h3>
+      <p>&copy; 2025 Todos los derechos reservados.</p>
+    </footer>
+
+</div>
+
+
+
+</body>
+</html>
